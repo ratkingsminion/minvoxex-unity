@@ -15,11 +15,11 @@ namespace RatKing.MinimalVoxelExample {
 			float uvY2f = 1.0f - (uvY + uvH) * uvFactorY;
 
 			_uvs = new Vector2[] {
-			new Vector2(uvX1f, uvY2f),
-			new Vector2(uvX1f, uvY1f),
-			new Vector2(uvX2f, uvY1f),
-			new Vector2(uvX2f, uvY2f)
-		};
+				new Vector2(uvX1f, uvY2f),
+				new Vector2(uvX1f, uvY1f),
+				new Vector2(uvX2f, uvY1f),
+				new Vector2(uvX2f, uvY2f)
+			};
 		}
 
 		//
